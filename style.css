@@ -1,12 +1,31 @@
-.container {
+.post {
     margin: auto;
     display: flex;
     align-items: center;
+    width: 100px;
+    height: 500px;
 }
 .row {
     background-color: blue;
     margin: auto;
     padding: auto;
-    width: 650px;
-    height: 500px;
+    width: 350px;
+    height: 520px;
+}
+.col {
+    width: 100%;
+    align-items: center;
+}
+.col-img {
+    padding-left: 75px;
+    align-items: center;
+    border: solid 1px;
+}
+.col-icons {
+    padding-left: 5px;
+    padding-top: 4px;
+    
+}
+img {
+    height: 100%;
 }
