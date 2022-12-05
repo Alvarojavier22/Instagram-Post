@@ -1,3 +1,12 @@
-.fa-solid {
-    text-align: end;
+.container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.row {
+    background-color: blue;
+    margin: auto;
+    padding: auto;
+    width: 650px;
+    height: 500px;
 }
